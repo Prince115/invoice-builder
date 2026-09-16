@@ -680,8 +680,9 @@
   "settingsMenuItems": {
     "descriptions": {
       "about": "Sužinokite daugiau apie šią programą, jos funkcijas.",
-      "buyMeCoffee": "Invoice Builder prižiūri vienas kūrėjas. Jūsų parama padeda tęsti atnaujinimus ir diegti naujas funkcijas! Tapkite vienu iš pirmųjų rėmėjų ir pamatykite savo vardą programėlėje",
+      "buyMeCoffee": "Paremkite projektą vienkartine kavos dovana.",
       "customizeInvoice": "Sąskaitos numerio priešdėlis (pvz.: INV), priesagas.",
+      "githubSponsors": "Paremkite Invoice Builder ir padėkite auginti programą per GitHub Sponsors.",
       "darkMode": "Perjunkite tarp šviesios ir tamsios temų.",
       "export": "Eksportuokite savo duomenis atsarginei kopijai arba naudoti kitose programose.",
       "import": "Importuokite savo duomenis iš kitų šaltinių arba atsarginių kopijų.",
@@ -704,6 +705,7 @@
       "about": "Apie",
       "buyMeCoffee": "Nupirk man kavos",
       "checkForUpdate": "Tikrinti atnaujinimus",
+      "githubSponsors": "GitHub Sponsors",
       "customizeInvoice": "Valdykite sąskaitą",
       "darkMode": "Tamsus režimas",
       "export": "Eksportuoti",

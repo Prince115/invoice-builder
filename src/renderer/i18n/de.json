@@ -680,8 +680,9 @@
   "settingsMenuItems": {
     "descriptions": {
       "about": "Erfahren Sie mehr über diese App und ihre Funktionen.",
-      "buyMeCoffee": "Invoice Builder wird von einem einzelnen Entwickler gepflegt. Deine Unterstützung sorgt dafür, dass Updates und neue Funktionen weiterentwickelt werden! Sei einer der ersten Unterstützer und sieh deinen Namen in der App",
+      "buyMeCoffee": "Unterstützen Sie das Projekt mit einer Spende für einen Kaffee.",
       "customizeInvoice": "Rechnungsnummer-Präfix z.B.: INV, Suffix.",
+      "githubSponsors": "Unterstützen Sie Invoice Builder und helfen Sie dabei, die App über GitHub Sponsors weiterzuentwickeln.",
       "darkMode": "Zwischen hellem und dunklem Design wechseln.",
       "export": "Exportieren Sie Ihre Daten zur Sicherung oder zur Verwendung in anderen Anwendungen.",
       "import": "Importieren Sie Ihre Daten aus anderen Quellen oder Sicherungsdateien.",
@@ -704,6 +705,7 @@
       "about": "Über",
       "buyMeCoffee": "Kauf mir einen Kaffee",
       "checkForUpdate": "Nach Updates suchen",
+      "githubSponsors": "GitHub Sponsors",
       "customizeInvoice": "Rechnung anpassen",
       "darkMode": "Dunkelmodus",
       "export": "Exportieren",

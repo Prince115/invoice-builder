@@ -1,4 +1,12 @@
-import { DarkMode, Description, FileDownload, Language, LightMode, LocalPrintshopOutlined } from '@mui/icons-material';
+import {
+  DarkMode,
+  Description,
+  FavoriteBorderOutlined,
+  FileDownload,
+  Language,
+  LightMode,
+  LocalPrintshopOutlined
+} from '@mui/icons-material';
 import AssessmentIcon from '@mui/icons-material/Assessment';
 import AutorenewIcon from '@mui/icons-material/Autorenew';
 import CoffeeIcon from '@mui/icons-material/Coffee';
@@ -282,6 +290,16 @@ export const Menu: FC<Props> = ({
   const appPromotion = [
     {
       items: [
+        {
+          text: t('settingsMenuItems.titles.githubSponsors'),
+          description: t('settingsMenuItems.descriptions.githubSponsors'),
+          icon: <FavoriteBorderOutlined />,
+          isToggle: false,
+          isSelected: false,
+          onClick: () => {
+            getApi().openUrl('https://github.com/sponsors/piratuks');
+          }
+        },
         {
           text: t('settingsMenuItems.titles.buyMeCoffee'),
           description: t('settingsMenuItems.descriptions.buyMeCoffee'),

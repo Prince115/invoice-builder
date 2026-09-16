@@ -680,8 +680,9 @@
   "settingsMenuItems": {
     "descriptions": {
       "about": "Learn more about this app, its features.",
-      "buyMeCoffee": "Invoice Builder is maintained by a single developer. Your support keeps updates coming and new features rolling out! Be one of the first supporters and see your name in the app",
+      "buyMeCoffee": "Support the project with a one-time coffee donation.",
       "customizeInvoice": "Invoice number prefix e.g.: INV, suffix.",
+      "githubSponsors": "Support Invoice Builder and help keep the app growing through GitHub Sponsors.",
       "darkMode": "Switch between light and dark themes.",
       "export": "Export your data for backup or to use in other applications.",
       "import": "Import your data from other sources or backup files.",
@@ -702,8 +703,9 @@
     "importConfirmText": "Are you sure you want to import this JSON file? This action will erase your current database and replace it with the data from the backup. This cannot be undone.",
     "titles": {
       "about": "About",
-      "buyMeCoffee": "Buy me coffee",
+      "buyMeCoffee": "Buy Me a Coffee",
       "checkForUpdate": "Check for update",
+      "githubSponsors": "GitHub Sponsors",
       "customizeInvoice": "Customize invoice",
       "darkMode": "Dark Mode",
       "export": "Export",

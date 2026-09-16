@@ -8,6 +8,7 @@
 ![macOS](https://img.shields.io/badge/macOS-DMG-lightgrey?logo=apple&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-blue?style=flat-square&logo=docker&logoColor=white)
 [![GHCR](https://img.shields.io/badge/ghcr.io-invoice--builder-blue?style=flat-square&logo=github)](https://github.com/piratuks/invoice-builder/pkgs/container/invoice-builder)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ec5990?logo=github)](https://github.com/sponsors/piratuks)
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FF813F?style=flat&logo=buy-me-a-coffee&logoColor=white)](https://www.buymeacoffee.com/evaldizi)
 
 <a href="https://trendshift.io/repositories/17939?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-17939" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/17939" alt="piratuks%2Finvoice-builder | Trendshift" width="250" height="55"/></a>
@@ -21,7 +22,7 @@ No accounts. No cloud. No subscriptions.
 Your data stays on your machine in a database file you own.
 
 > ☕ **Support Invoice Builder**
-> If this project saves you time, you can help keep it maintained with a small contribution on [Buy Me a Coffee](https://www.buymeacoffee.com/evaldizi).
+> If this project saves you time, you can help keep it maintained through [GitHub Sponsors](https://github.com/sponsors/piratuks) or [Buy Me a Coffee](https://www.buymeacoffee.com/evaldizi).
 
 ## 📸 Screenshots
 
@@ -475,7 +476,7 @@ See the [LICENSE](LICENSE) file for details.
 
 Invoice Builder is maintained by a single developer. Your support helps keep updates coming and new features rolling out!
 
-Want to be a part of this project’s journey? You can support it here: [Buy Me a Coffee](https://www.buymeacoffee.com/evaldizi)
+Want to be a part of this project’s journey? You can support it here: [GitHub Sponsors](https://github.com/sponsors/piratuks) or [Buy Me a Coffee](https://www.buymeacoffee.com/evaldizi)
 
 ### 💖 Supporters
 
