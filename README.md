@@ -232,6 +232,27 @@ docker compose -f docker-compose.standalone.yml up -d
 | 3000 | Node.js REST API + SQLite/PG |
 | 3001 | Static SPA served by `serve` |
 
+### Running without Docker Compose
+
+`docker pull` only downloads the image. To start the single-container image directly, provide the startup service and compiled migration directory:
+
+```bash
+docker pull ghcr.io/piratuks/invoice-builder:latest
+docker run -d \
+  --name invoice-builder \
+  -p 3001:3001 \
+  -e SERVICE=all \
+  -e NODE_ENV=docker \
+  -e FE_SERVER_URL=http://localhost:3001 \
+  -e MIGRATIONS_PATH=/app/dist-be/backend/server/shared/migrations \
+  -v invoice-builder-data:/data \
+  ghcr.io/piratuks/invoice-builder:latest
+```
+
+Open `http://localhost:3001` after the container starts. Port `3000` is used internally by nginx and does not need to be published. Add `-p 3000:3000` only when direct access to the backend API is required.
+
+The `SERVICE` and `MIGRATIONS_PATH` values are supplied automatically when using `docker compose`; they are required here because `docker pull` does not apply Compose configuration.
+
 ---
 
 ### Building locally instead of pulling
